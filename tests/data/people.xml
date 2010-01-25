@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <person id="1" name="Ross Tuck"
+        gender="m" title="Programmer / Jerk"
+        leader="0" human="1" birthdate="1984-11-10" />
+
+    <person id="2" name="Abe Lincoln"
+        gender="m" title="President / Tall Dude"
+        leader="1" human="1" birthdate="1861-03-04" />
+
+    <person id="3" name="Queen Elizabeth"
+        gender="f" title="Queen / Zombie Slayer"
+        leader="1" human="1" birthdate="1558-11-17" />
+
+    <person id="4" name="Count Dracula"
+        gender="m" title="Man About Town / Vampire"
+        leader="0" human="0" birthdate="1558-11-17" />
+</dataset>

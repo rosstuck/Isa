@@ -1,0 +1,16 @@
+<phpunit bootstrap="bootstrap.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true">
+
+    <testsuite name="My Test Suite">
+        <directory>./Isa</directory>
+    </testsuite>
+
+    <filter>
+      <whitelist>
+        <directory suffix=".php">../vendor/Isa</directory>
+      </whitelist>
+    </filter>
+</phpunit>
