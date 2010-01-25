@@ -3,7 +3,7 @@ Isa is an odd little extension for Zend_Db_Table that offers named scopes.
 
 # How do I use it?
 Toss vendor/Isa in your vendor folder and have your table classes extend from
-Isa_TableAbstract. Isa expects a PSP-0 style autoloader (PEAR-style, Zend, etc).
+Isa_TableAbstract. Isa expects a PSR-0 style autoloader (PEAR, Zend, etc).
 
 ## Define a scope
 Scopes are just defined as methods within your table class. There are two rules:
